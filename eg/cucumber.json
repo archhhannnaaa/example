@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-22T09:28:10.337Z",
+        "line": 10,
+        "name": "Registered user",
+        "description": "",
+        "id": "testmeapp;registered-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5544521409,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I want to type the url",
+            "match": {
+              "location": "package2.i_want_to_type_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 351773305,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click on Sign in",
+            "match": {
+              "location": "package2.click_on_Sign_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 310657433,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the \"lalitha\" and \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "package2.i_enter_the_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287711890,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login",
+            "match": {
+              "location": "package2.i_click_on_Login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TestMeApp",
+    "description": "",
+    "id": "testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:eg/eg/case2.feature",
+    "tags": []
+  }
+]
